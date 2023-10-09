@@ -131,7 +131,7 @@
                         <outlet property="heightSlider" destination="Pky-qY-oVp" id="ekA-iJ-wX0"/>
                         <outlet property="weightLabel" destination="LTF-aL-8qu" id="twg-Q5-jeH"/>
                         <outlet property="weightSlider" destination="s2X-C5-Zcz" id="yGe-g7-o2r"/>
-                        <segue destination="lkq-xS-Cin" kind="presentation" identifier="goToResult" modalTransitionStyle="coverVertical" id="KgC-LQ-nNT"/>
+                        <segue destination="lkq-xS-Cin" kind="presentation" identifier="goToResult" modalTransitionStyle="coverVertical" id="9NP-yt-rer"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -148,7 +148,6 @@
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="result_background" translatesAutoresizingMaskIntoConstraints="NO" id="r83-N3-Ash">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="886"/>
-                                <color key="backgroundColor" red="0.27843137254901962" green="0.47450980392156861" blue="0.74901960784313726" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="I5P-Pc-Lq3">
                                 <rect key="frame" x="89" y="354.5" width="236" height="177.5"/>

@@ -11,6 +11,8 @@ import UIKit
 class ResultViewController: UIViewController {
 
     var bmiResult: String?
+    var adivice: String?
+    var color: UIColor?
     
     @IBOutlet weak var adiviceLabel: UILabel!
     @IBOutlet weak var resultLabel: UILabel!
@@ -20,6 +22,8 @@ class ResultViewController: UIViewController {
         super.viewDidLoad()
         
         resultLabel.text = bmiResult
+        adiviceLabel.text = adivice
+        view.backgroundColor = color
     }
     
     @IBAction func recalculateButton(_ sender: UIButton) {
